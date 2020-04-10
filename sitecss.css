@@ -1,0 +1,90 @@
+h1 {
+    color:pink;
+    background-image: url(photos/back.jpg);
+    background-repeat: repeat;
+    font-size: 8vw;
+}
+
+nav {
+    font-size: 3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 209); 
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+.menu {
+    padding: 10px;
+    float: left; 
+}
+
+img {
+    max-width: 100%;
+}
+
+.desc {
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    color: rgb(52, 173, 201);
+    padding: 5px;
+    text-align: center;
+}
+.price {
+    font-family: "Arial", "Helvetica", "serif";
+    color: lightblue;
+    padding: 5px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 4vw;
+    font-family: sans-serif;
+}
+
+article {
+    text-align: justify;
+    font-size: 2.5vw;  
+}
+
+a:hover {
+    color: rgb(194, 55, 66);
+}
+
+@media only screen and (max-width:640px) {
+    /* For mobile phones: */
+    .menu, .content {
+      width:100%;
+    }
+    img {
+		width: 100%;
+		height: auto;
+		margin: auto;
+    }
+    article {
+        font-size: 1em;
+        padding: 1em;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .menu {
+          width: 90%;
+    }
+}
+@media only screen and (min-width:640px){
+    
+    img {
+        padding: 0.8em;
+    }
+} 
+
+.clearfix {
+    overflow: auto;
+}
+
+footer {
+    float: left;
+    text-align: center;
+    width: 100%;
+    font-size: 3vw;
+}
